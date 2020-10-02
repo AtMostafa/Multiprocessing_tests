@@ -12,6 +12,8 @@ def normal_main():
     out=[]
     for i in iterList:
         out.append(factorial())
+    
+    return out
 
 #Parallel Running
 @timer
@@ -28,4 +30,4 @@ if __name__=="__main__":
     out=normal_main()
     # out=parallel_main()
 
-    # print(f'{type(out)=},{len(out)=}')
+    print(f'{type(out)=},{len(out)=}')
