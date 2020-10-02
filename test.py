@@ -28,6 +28,7 @@ def parallel_main():
 
 if __name__=="__main__":
     out=normal_main()
-    # out=parallel_main()
+    print(f'{type(out)=},{len(out)=}')
 
+    out=parallel_main()
     print(f'{type(out)=},{len(out)=}')
